@@ -2,14 +2,14 @@
   display: flex;
   align-items: center;
   color: #fff;
-  font-size: .8rem;
+  font-size: 0.8rem;
   justify-content: space-between;
 }
 
 .tw-followCard-header {
   display: flex;
   align-items: center;
-  gap: 4px
+  gap: 4px;
 }
 
 .tw-followCard-info {
@@ -18,7 +18,7 @@
 }
 
 .tw-followCard-infoUserName {
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .tw-followCard-avatar {
@@ -35,11 +35,11 @@
   padding: 6px 16px;
   font-weight: bold;
   border: 1px solid #000;
-  transition: .3s ease background-color;
+  transition: 0.3s ease background-color;
 }
 
 .tw-followCard-button:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .tw-followCard-text {
@@ -57,7 +57,7 @@
   background-color: rgba(255, 0, 0, 0.178);
   color: red;
   border: 1px solid red;
-  transition: .3s ease all;
+  transition: 0.3s ease all;
   opacity: 1;
 }
 
@@ -73,3 +73,30 @@
   display: none;
 }
 
+.tw-card {
+  background-color: #222;
+  border-radius: 20px;
+  padding: 0% 6% 8% 6%;
+}
+
+.tw-content-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 3%;
+}
+
+.tw-title {
+  color: white;
+}
+
+.tw-trending-info {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.tw-trending-small-text {
+  opacity: 0.4;
+  font-size: 9pt;
+}
